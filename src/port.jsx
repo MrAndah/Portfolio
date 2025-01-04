@@ -1,6 +1,6 @@
 import './port.css'
 
-function Port() {
+function Home() {
     return(
         <>
         <header> 
@@ -16,8 +16,7 @@ function Port() {
                     <ul className="navlinks">
                         <li><a href="#Home">Home</a></li>
                         <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Resume</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Project</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
@@ -29,7 +28,12 @@ function Port() {
                     <img src='/src/assets/hero-image.png' className='hero-img'/>
                 </div>
                 <div className='Hero-text'>
-
+                    <p> Hi Im</p>
+                    <h1 className='name'> Godfrey Andah</h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Soluta delectus dolorum quibusdam maiores magni quod rem 
+                        in porro, laborum, laudantium ex repellendus explicabo, autem molestiae!
+                    </p>
                 </div>
             </div>
         </section>
@@ -38,4 +42,4 @@ function Port() {
 }
 
 
-export default Port
+export default Home
