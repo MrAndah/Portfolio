@@ -1,0 +1,29 @@
+#skills {
+    min-height: 100vh;
+}
+
+.h1 {
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+.icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    width:50%;
+    margin: 0 auto;
+    align-items: center;
+justify-content: center;}
+
+.skill-img{
+    width: 130px;
+    transition: 0.5s;
+    margin: 1rem;
+}
+
+.skill-img:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 2em rgb(159, 158, 158));
+}

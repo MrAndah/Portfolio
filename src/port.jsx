@@ -14,15 +14,15 @@ function Home() {
                         <span></span>
                     </div>
                     <ul className="navlinks">
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#skills">Portfolio</a></li>
                         <li><a href="#">Project</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <section id="Home">
+        <section id="home">
             <div className='Container'>
                 <div className='Hero-Image'>
                     <img src='/src/assets/hero-image.png' className='hero-img'/>
