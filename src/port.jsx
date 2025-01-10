@@ -28,9 +28,9 @@ function Home() {
                     <img src='/src/assets/hero-image.png' className='hero-img'/>
                 </div>
                 <div className='Hero-text'>
-                    <p> Hi Im</p>
+                    <p className='pp'> Hi Im</p>
                     <h1 className='name'> Godfrey Andah</h1>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <p className='pp'> Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Soluta delectus dolorum quibusdam maiores magni quod rem 
                         in porro, laborum, laudantium ex repellendus explicabo, autem molestiae!
                     </p>

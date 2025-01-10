@@ -8,6 +8,18 @@
     margin-bottom: 3rem;
 }
 
+#react{
+    animation: spin infinite 20s linear;
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 
 .icon-container{
     display: flex;
@@ -18,12 +30,28 @@
 justify-content: center;}
 
 .skill-img{
-    width: 130px;
+    width: 110px;
     transition: 0.5s;
     margin: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.skill-text{
+    text-align: center;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.skill-box{
+    background-color: white;
+    border: 1.5px solid rgb(151, 151, 151);
+    border-radius: 18px;
+    margin: 0.4rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
 }
 
 .skill-img:hover{
     transform: scale(1.1);
-    filter: drop-shadow(0 0 2em rgb(159, 158, 158));
+    
 }
