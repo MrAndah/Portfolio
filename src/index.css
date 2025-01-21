@@ -7,11 +7,29 @@ body{
   background-color: rgb(241, 240, 240);
   margin: 0;
   color: black;
-  scroll-behavior: smooth;
   min-height: 100vh;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 a{
   text-decoration: inherit;
+
+}
+
+/** Media Queries */
+
+@media screen and (max-width: 800px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  .Container{
+    flex-direction: column;
+  }
 
 }

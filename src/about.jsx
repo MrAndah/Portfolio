@@ -3,8 +3,13 @@ import "./about.css"
 function Skills() {
     return(
         <section id="skills">
-            <h1 className="h1">  MY Skills </h1>
+            <h1 className="h1">  MY Skills  <span ><img src="/src/assets/checkmark.png" 
+                                                        className="head-img" 
+                                                        /** style={{ verticalAlign: "middle" }} */ />
+                                            </span></h1>
             <div className="icons">
+                <img src="/src/assets/cert.png" className="cert-img"/>
+
                 <div className="icon-container" >
                     <div className="skill-box">
                         <img className="skill-img" src="/src/assets/react-svgrepo-com.svg" id="react"/>
@@ -35,8 +40,8 @@ function Skills() {
                         <p className="skill-text"> Next JS</p>
                     </div>
                     <div className="skill-box">
-                        <img className="skill-img" src="/src/assets/arduino-svgrepo-com.svg"/>
-                        <p className="skill-text"> Arduino</p>
+                        <img className="skill-img" src="/src/assets/git.svg"/>
+                        <p className="skill-text"> Git</p>
                     </div>
                     <div className="skill-box">
                         <img className="skill-img" src="/src/assets/raspberry-pi-svgrepo-com.svg"/>
@@ -46,12 +51,10 @@ function Skills() {
                         <img className="skill-img" src="/src/assets/vite-svgrepo-com.svg"/>
                         <p className="skill-text"> Vite </p>                
                     </div>
-
-
-
-
-
                 </div>
+
+                <img src="/src/assets/cert.png" className="cert-img"/>
+
             </div>
 
         </section>
