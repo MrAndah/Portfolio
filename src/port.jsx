@@ -1,14 +1,9 @@
 import './port.css'
+import { useState } from 'react';
 
 function Home() {
     
-    function toggleMenu() {
-        const menu = document.querySelector(".menu-links");
-        const icon = document.querySelector(".hamburger-icon");
-        menu.classList.toggle("open");
-        icon.classList.toggle("open");
-      }
-
+    const [menuOpen, setMenuOpen] = useState(false);
 
     return(
         <>
@@ -17,27 +12,17 @@ function Home() {
                 <div className="Header-text"> Godfrey Andah
                 </div>
                 <nav id="desktop-nav">
-                    <ul className="navlinks">
+                    <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul className="navlinks"  id={menuOpen ? "open" : ""}>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#skills">Portfolio</a></li>
                         <li><a href="#">Project</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                </nav>
-                <nav id="hamburger-nav">
-                    <div className="hamburger-menu">
-                        <div className="hamburger-icon" onClick={()=>toggleMenu()}>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <div className="menu-links">
-                            <li><a href="#about" onClick={()=>toggleMenu()}>About</a></li>
-                            <li><a href="#experience" onClick={()=>toggleMenu()}>Experience</a></li>
-                            <li><a href="#projects" onClick={()=>toggleMenu()}>Projects</a></li>
-                            <li><a href="#contact" onClick={()=>toggleMenu()}>Contact</a></li>
-                        </div>
-                    </div>
                 </nav>
             </div>
         </header>

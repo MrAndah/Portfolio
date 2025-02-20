@@ -21,15 +21,3 @@ a{
 
 /** Media Queries */
 
-@media screen and (max-width: 800px) {
-  #desktop-nav {
-    display: none;
-  }
-  #hamburger-nav {
-    display: flex;
-  }
-  .Container{
-    flex-direction: column;
-  }
-
-}
