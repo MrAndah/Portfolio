@@ -21,7 +21,7 @@ function Home() {
                         <li><a href="#home">Home</a></li>
                         <li><a href="#skills">Portfolio</a></li>
                         <li><a href="#">Project</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#Contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
