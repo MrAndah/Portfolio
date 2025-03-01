@@ -78,12 +78,15 @@ nav li {
 }
 
 .hero-img:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 #home {
     display: flex;
     min-height: 78vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .Hero-text{
@@ -92,6 +95,7 @@ nav li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: left;
 }
 
  .pp {
@@ -128,6 +132,19 @@ h1{
       flex-direction: column;
       align-items: flex-start;
   }
+
+   .Container{
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .hero-img{
+    width: 80%;
+   }
+
+   .Hero-text{
+    width: 80%;
+   }
 
   nav ul {
       display: none;

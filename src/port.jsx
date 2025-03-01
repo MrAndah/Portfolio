@@ -12,12 +12,12 @@ function Home() {
                 <div className="Header-text"> Godfrey Andah
                 </div>
                 <nav id="desktop-nav">
-                    <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+                    <div className="menu" onClick={() =>setMenuOpen(!menuOpen) }>
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
-                    <ul className="navlinks"  id={menuOpen ? "open" : ""}>
+                    <ul className="navlinks"  id={menuOpen ? "open" : "not"}>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#skills">Portfolio</a></li>
                         <li><a href="#">Project</a></li>
