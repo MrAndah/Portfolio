@@ -30,7 +30,7 @@ function Contact () {
                 <div>
                     <div className="nav-links-container">
                         <ul className="navlinks">
-                            <li><a href="#about">About</a></li>
+                            <li><a href="#home">About</a></li>
                             <li><a href="#skills">Experience</a></li>
                             <li><a href="#projects">Projects</a></li>
                             <li><a href="#contact">Contact</a></li>
