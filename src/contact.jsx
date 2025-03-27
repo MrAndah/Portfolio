@@ -37,7 +37,7 @@ function Contact () {
                         </ul>
                     </div>
                 </div>
-                <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+                <p>Copyright &#169;  Godfrey Andah. All Rights Reserved.</p>
             </footer>
         </section>
     )
