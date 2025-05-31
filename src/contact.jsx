@@ -14,7 +14,7 @@ function Contact () {
                             alt="Email icon"
                             className="icon contact-icon email-icon"
                         />
-                        <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+                        <p><a href="mailto:andahgodfrey4@gmail.com">Email Me</a></p>
                     </div>
                     <div className="contact-info-container">
                         <img
@@ -22,7 +22,7 @@ function Contact () {
                             alt="LinkedIn icon"
                             className="contact-icon"
                         />
-                        <p><a href="https://www.Linkedin.com">LinkedIn</a></p>
+                        <p><a href="https://www.linkedin.com/in/godfrey-andah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target='_blank'>LinkedIn</a></p>
                     </div>
                 </div>
             </section>

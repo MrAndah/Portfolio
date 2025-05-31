@@ -32,6 +32,7 @@
     background: (250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
+    max-width: 85%;
 }
 
 .contact-info-container {
@@ -74,4 +75,10 @@ p a {
 
 li a {
     color: black;
+}
+
+@media (max-width: 450px) {
+    .contact-info-upper-container{
+        flex-direction: column;
+    }
 }
