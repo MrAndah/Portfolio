@@ -63,7 +63,7 @@ function Home() {
                     <h1 className='name'> Godfrey Andah</h1>
                     <p className='pp'> I am a student of KNUST currently studying computer science.
                         I am a tech enthusiast with goals of venturing into Data Science and Machine Learning   
-                        but currently focused on frontend and backend development gi
+                        but currently focused on frontend and backend development 
                     </p>
                     <div className='profile-img'>
                         <a href=' https://github.com/MrAndah' target='_blank'> <img className="github" src='/src/assets/github.png'/> </a>

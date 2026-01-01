@@ -136,13 +136,15 @@ header {
 
 .hero-img {
     width: 400px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     border-radius: 50%;
-    border: 0.25rem solid rgb(94, 93, 93);
-    transition: 400ms;
+    border: 0.15rem solid black;
+    transition: 600ms;
 }
 
 .hero-img:hover {
-    transform: scale(1.1);
+    transform: translatey(-20px);
 }
 
 #home {
