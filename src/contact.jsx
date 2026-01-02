@@ -25,20 +25,20 @@ function Contact () {
                         <p><a href="https://www.linkedin.com/in/godfrey-andah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target='_blank'>LinkedIn</a></p>
                     </div>
                 </div>
-            </section>
-            <footer>
-                <div>
-                    <div className="nav-links-container">
-                        <ul className="navlinks">
-                            <li><a href="#home">About</a></li>
-                            <li><a href="#skills">Experience</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
+                <footer>
+                    <div>
+                        <div className="nav-links-container">
+                            <ul className="navlinks">
+                                <li><a href="#home">About</a></li>
+                                <li><a href="#skills">Experience</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <p>Copyright &#169;  Godfrey Andah. All Rights Reserved.</p>
-            </footer>
+                    <p>Copyright &#169;  Godfrey Andah. All Rights Reserved.</p>
+                </footer>
+            </section>
         </section>
     )
 }
