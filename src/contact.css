@@ -4,10 +4,10 @@
     flex-direction: column;
     height: auto;
     min-height: 70vh;
-    padding: 60px 0;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
+    padding: 60px;
 }
 
 footer {
@@ -95,11 +95,11 @@ li a {
     }
 
     #contact {
-        padding-bottom: 100px; /* Give extra space for the footer */
+        padding-bottom: 300px; /* Give extra space for the footer */
     }
 
     footer {
         margin-bottom: 20px;
     }
 }
-}
+

@@ -15,7 +15,7 @@ export default function FadeIn({ children, duration = 0, className = "" }) {
                     timeoutRef.current = setTimeout(() => setIsVisible(true), duration);
                 }
             },
-            { threshold: 0.1, rootMargin: "0px 0px -10px 0px" }
+            { threshold: 0.1, rootMargin: "0px 0px 50px 0px" }
         );
 
         if (elementRef.current) observer.observe(elementRef.current);
