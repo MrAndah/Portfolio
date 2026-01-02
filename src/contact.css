@@ -2,17 +2,20 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: auto !important;
-    min-height: 50vh;
+    height: auto;
+    min-height: 70vh;
     padding: 60px 0;
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 footer {
-    height: auto !important;
+    height: auto;
     padding: 40px 0;
     margin-top: 20px;
     text-align: center;
+    width: 100%;
 }
 
 .nav-links-container ul {
@@ -90,4 +93,13 @@ li a {
     .contact-info-container p {
         font-size: 1rem;
     }
+
+    #contact {
+        padding-bottom: 100px; /* Give extra space for the footer */
+    }
+
+    footer {
+        margin-bottom: 20px;
+    }
+}
 }
