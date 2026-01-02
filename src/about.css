@@ -99,15 +99,15 @@
 
 @media (max-width: 750px) {
     .icon-container {
-        width: 100%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        overflow: visible;
+        width: 100% !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        overflow: visible !important;
     }
 
     .icons {
-        max-height: none;
-        margin-top: 2rem;
+        max-height: none !important;
+        margin-top: 2rem !important;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -117,16 +117,5 @@
         margin: 1rem auto;
     }
 
-    .icon-container {
-        width: 90%;
-        flex-direction: column;
 
-    }
-
-    .icons{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 2rem;
-    }
 }
