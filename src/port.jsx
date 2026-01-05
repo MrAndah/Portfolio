@@ -23,9 +23,10 @@ function Home() {
           <div className='container'>
             <div className="Header-text">Godfrey Andah</div>
             
-            <div className="nav-container" style={{display: 'inline-block'}}>
+            <div className="nav-container">
               <button 
                 className={`menu-toggle ${isMenuOpen ? 'active' : ''}`}
+                id={"menu-toggle"}
                 onClick={toggleMenu}
                 aria-label="Toggle menu"
               >

@@ -12,6 +12,7 @@ header {
     font-size: 1.79rem;
     width: 100%;
     margin-bottom: 2rem;
+    overflow-x: hidden;
 }
 
 .Header-text {
@@ -195,7 +196,6 @@ h1 {
 @media (max-width: 750px) {
     .container {
         flex-direction: row;
-        align-items: flex-start;
     }
 
     .Container {

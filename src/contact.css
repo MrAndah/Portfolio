@@ -18,6 +18,10 @@ footer {
     width: 100%;
 }
 
+#menu-toggler {
+    align-self: center;
+}
+
 .nav-links-container ul {
     display: flex !important;
     text-align: center;
