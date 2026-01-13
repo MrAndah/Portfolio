@@ -1,7 +1,7 @@
 import './port.css'
 import { useState , useEffect } from 'react';
 
-function Home() {
+function Port() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -19,12 +19,12 @@ function Home() {
   
     return (
       <>
-        <header>
-          <div className='container'>
+        <header id="Home">
+          <div className='header-container'>
             <div className="Header-text">Godfrey Andah</div>
-            
+
             <div className="nav-container">
-              <button 
+              <button
                 className={`menu-toggle ${isMenuOpen ? 'active' : ''}`}
                 id={"menu-toggle"}
                 onClick={toggleMenu}
@@ -34,21 +34,21 @@ function Home() {
                 <span className="bar"></span>
                 <span className="bar"></span>
               </button>
-              
+
                 <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`} id="nav-links">
                     <span className="mobile-close-btn">
                         <button onClick={toggleMenu} aria-label="Close menu">
                             <i className="fas fa-times"></i> X
                         </button>
                     </span>
-                    <li><a href="#home" onClick={closeMobileMenu}>Home</a></li>
+                    <li><a href="#Home" onClick={closeMobileMenu}>Home</a></li>
                     <li><a href="#skills" onClick={closeMobileMenu}>Portfolio</a></li>
                     <li><a href="#projects" onClick={closeMobileMenu}>Projects</a></li>
                     <li><a href="#contact" onClick={closeMobileMenu}>Contact</a></li>
                 </ul>
             </div>
-  
-            <div 
+
+            <div
               className={`nav-overlay ${isMenuOpen ? 'active' : ''}`}
               onClick={toggleMenu}
             />
@@ -63,20 +63,20 @@ function Home() {
                     <p className='pp'> Hi Im</p>
                     <h1 className='name'> Godfrey Andah</h1>
                     <p className='pp'> I am a student of KNUST currently studying computer science.
-                        I am a tech enthusiast with goals of venturing into Data Science and Machine Learning   
-                        but currently focused on frontend and backend development 
+                        I am a tech enthusiast with goals of venturing into Data Science and Machine Learning
+                        but currently focused on frontend and backend development
                     </p>
                     <div className='profile-img'>
                         <a href=' https://github.com/MrAndah' target='_blank'> <img className="github" src='/src/assets/github.png'/> </a>
                         <a href='' target='_blank'> <img className="github link" src='/src/assets/linkedin.png'/> </a>
                     </div>
-        
+
                 </div>
             </div>
         </section>
-        </>               
+        </>
     )
 }
 
 
-export default Home
+export default Port

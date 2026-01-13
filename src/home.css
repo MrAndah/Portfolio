@@ -11,6 +11,7 @@ header {
     padding: 0 0 1.5rem;
     font-size: 1.79rem;
     width: 100%;
+    min-height: 20dvh;
     margin-bottom: 2rem;
     overflow-x: hidden;
 }
@@ -19,6 +20,14 @@ header {
     font-size: 2rem;
 }
 
+.header-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 4rem;
+}
 .container {
     width: 90%;
     max-width: 1200px;
@@ -35,16 +44,9 @@ header {
 }
 
 .nav-links {
-    display: inline-flex;
+    display: flex;
     gap: 2rem;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 70%;
-    height: 100dvh;
 }
 
 .nav-links li {
@@ -155,7 +157,7 @@ header {
 
 #home {
     display: flex;
-    min-height: 78vh;
+    min-height: 80dvh;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -218,7 +220,7 @@ h1 {
     .mobile-close-btn {
         display: block;
     }
-    
+
     .nav-links {
         position: fixed;
         top: 0;
