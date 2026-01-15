@@ -9,14 +9,14 @@ import FadeIn from "./FadeIn.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
-      {/*<FadeIn duration={250}>*/}
+      <FadeIn duration={250}>
             <Home/>
-      {/*</FadeIn>*/}
-      {/*<FadeIn duration={250}>*/}
+      </FadeIn>
+      <FadeIn duration={250}>
             <Skills/>
-      {/*</FadeIn>*/}
-      {/*<FadeIn duration={250}>*/}
+      </FadeIn>
+      <FadeIn duration={250}>
             <Contact/>
-      {/*</FadeIn>*/}
+      </FadeIn>
   </StrictMode>,
 )
