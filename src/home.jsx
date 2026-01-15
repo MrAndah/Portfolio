@@ -55,7 +55,7 @@ function Port() {
           </div>
         </header>
         <section id="home">
-            <div className='Container'>
+            <div className='home-container'>
                 <div className='Hero-Image'>
                     <img src='/src/assets/hero-image.jpg' className='hero-img'/>
                 </div>
