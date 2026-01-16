@@ -8,16 +8,26 @@ function Contact () {
             <h1 className="contact-title">Contact Me</h1>
             <div className="contact-icon-container">
                 <a href="mailto:andahdgodfrey4@gmail.com">
-                    <img className="contact-icon" src="./src/assets/email.svg" alt="email" />
+                    <img className="contact-icon"
+                         src="./src/assets/email.svg"
+                         alt="email" />
                 </a>
-                <a href="https://github.com/MrAndah" target="_blank" >
-                    <img className="contact-icon" src="./src/assets/github.png" alt="github icon" />
+                <a href="https://github.com/MrAndah"
+                   target="_blank" >
+                    <img className="contact-icon"
+                         src="./src/assets/github.png"
+                         alt="github icon" />
                 </a>
-                <a href="https://www.linkedin.com/in/godfrey-andah/">
-                    <img className="contact-icon" src="./src/assets/linkedin.png" alt="linkedin icon" />
+                <a href="https://www.linkedin.com/in/godfrey-andah/" target={"_blank"}>
+                    <img className="contact-icon"
+                         src="./src/assets/linkedin.png"
+                         alt="linkedin icon" />
                 </a>
-                <a href="https://www.youtube.com/@GodfreyAndah" target="_blank">
-                    <img className="contact-icon" src="./src/assets/youtube.svg" alt="youtube icon" />
+                <a href="https://www.youtube.com/@GodfreyAndah"
+                   target="_blank">
+                    <img className="contact-icon"
+                         src="./src/assets/youtube.svg"
+                         alt="youtube icon" />
                 </a>
             </div>
             <footer>
