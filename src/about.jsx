@@ -6,27 +6,51 @@ function Skills() {
             <div className="skills-container">
                 <div className="skills-heading"> Skills & Expertise </div>
                 <div className="skills-content">
-                    <div className={"skills-div"}>
+                    <div className={"skills-div one"}>
                         <div className={'title'}> Frontend Development</div>
                         <ul className="skills-list">
-                            <li> HTML</li>
-                            <li> CSS</li>
-                            <li> Javascript</li>
-                            <li> REACT</li>
+                            <li>
+                                <img src="/src/assets/html.svg" className={"logo"}/>
+                                HTML
+                            </li>
+                            <li>
+                                <img src="/src/assets/css.svg" className={"logo"}/>
+                                CSS
+                            </li>
+                            <li>
+                                <img src="/src/assets/javascript.svg" className={"logo"}/>
+                                Javascript
+                            </li>
+                            <li>
+                                <img src="/src/assets/react.svg" className={"logo react"}/>
+                                REACT
+                            </li>
                         </ul>
                     </div>
-                    <div className={"skills-div"}>
+                    <div className={"skills-div two"}>
                         <div className={'title'}> Backend Development</div>
                         <ul className="skills-list">
-                            <li> Sql</li>
-                            <li> Java (SpringBoot)</li>
+                            <li>
+                                <img src="/src/assets/sql.svg" className={"logo"}/>
+                                SQL
+                            </li>
+                            <li>
+                                <img src="/src/assets/java.svg" className={"logo"}/>
+                                Java (SpringBoot)
+                            </li>
                         </ul>
                     </div>
-                    <div className={"skills-div"}>
+                    <div className={"skills-div three"}>
                         <div className={'title'}> Tools</div>
                         <ul className="skills-list">
-                            <li> Git & Github</li>
-                            <li> Docker</li>
+                            <li>
+                                <img src="/src/assets/git.svg" className={"logo"}/>
+                                Git & Github
+                            </li>
+                            <li>
+                                <img src="/src/assets/docker.svg" className={"logo"}/>
+                                Docker
+                            </li>
                         </ul>
                     </div>
                 </div>
