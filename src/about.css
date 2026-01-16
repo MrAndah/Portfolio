@@ -75,3 +75,33 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+@media (max-width: 600px) {
+    .skills-container{
+        width: 90%;
+        align-items: center;
+    }
+
+    .skills-content{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: none;
+        width: 90%;
+    }
+
+    .skills-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: whitesmoke;
+        border-radius: 1.5rem;
+        border: 0.05px solid grey;
+        margin-bottom: 1rem;
+    }
+
+    .one{
+    }
+    .two{
+     }
+}

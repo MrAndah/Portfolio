@@ -12,9 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <FadeIn duration={250}>
             <Home/>
       </FadeIn>
-      <FadeIn duration={250}>
             <Skills/>
-      </FadeIn>
       <FadeIn duration={250}>
             <Contact/>
       </FadeIn>

@@ -1,10 +1,12 @@
 import "./about.css"
+import FadeIn from "./FadeIn.jsx";
 
 function Skills() {
     return(
         <section id="skills">
             <div className="skills-container">
                 <div className="skills-heading"> Skills & Expertise </div>
+                <FadeIn duration={250}>
                 <div className="skills-content">
                     <div className={"skills-div one"}>
                         <div className={'title'}> Frontend Development</div>
@@ -54,6 +56,7 @@ function Skills() {
                         </ul>
                     </div>
                 </div>
+                </FadeIn>
             </div>
         </section>
     )
