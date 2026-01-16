@@ -88,6 +88,7 @@
         flex-direction: column;
         border: none;
         width: 90%;
+        gap: 1rem;
     }
 
     .skills-div{
@@ -97,7 +98,8 @@
         background-color: whitesmoke;
         border-radius: 1.5rem;
         border: 0.05px solid grey;
-        margin-bottom: 1rem;
+        /*margin-bottom: 1rem;*/
+        maragin : 0 0 1rem 0 auto;
     }
 
     .one{

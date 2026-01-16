@@ -14,8 +14,9 @@ function Skills() {
         <section id="skills">
             <div className="skills-container">
                 <div className="skills-heading"> Skills & Expertise </div>
-                <FadeIn duration={250}>
+
                 <div className="skills-content">
+                    <FadeIn duration={250}>
                     <div className={"skills-div one"}>
                         <div className={'title'}> Frontend Development</div>
                         <ul className="skills-list">
@@ -37,6 +38,8 @@ function Skills() {
                             </li>
                         </ul>
                     </div>
+                    </FadeIn>
+                    <FadeIn duration={250}>
                     <div className={"skills-div two"}>
                         <div className={'title'}> Backend Development</div>
                         <ul className="skills-list">
@@ -50,6 +53,8 @@ function Skills() {
                             </li>
                         </ul>
                     </div>
+                    </FadeIn>
+                    <FadeIn duration={250}>
                     <div className={"skills-div three"}>
                         <div className={'title'}> Tools</div>
                         <ul className="skills-list">
@@ -63,8 +68,8 @@ function Skills() {
                             </li>
                         </ul>
                     </div>
+                    </FadeIn>
                 </div>
-                </FadeIn>
             </div>
         </section>
     )
