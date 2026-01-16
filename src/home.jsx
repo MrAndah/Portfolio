@@ -1,5 +1,8 @@
 import './home.css'
 import { useState , useEffect } from 'react';
+import heroImage from './assets/hero-image.jpg'
+import githubIcon from './assets/github.png'
+import linkedinIcon from './assets/linkedin.png'
 
 function Port() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -57,7 +60,7 @@ function Port() {
         <section id="home">
             <div className='home-container'>
                 <div className='Hero-Image'>
-                    <img src='/src/assets/hero-image.jpg' className='hero-img'/>
+                    <img src={heroImage} className='hero-img'/>
                 </div>
                 <div className='Hero-text'>
                     <p className='pp'> Hi Im</p>
@@ -67,8 +70,8 @@ function Port() {
                         but currently focused on Full Stack Web Development.
                     </p>
                     <div className='profile-img'>
-                        <a href=' https://github.com/MrAndah' target='_blank'> <img className="github" src='/src/assets/github.png'/> </a>
-                        <a href='' target='_blank'> <img className="github link" src='/src/assets/linkedin.png'/> </a>
+                        <a href=' https://github.com/MrAndah' target='_blank'> <img className="github" src={githubIcon}/> </a>
+                        <a href='' target='_blank'> <img className="github link" src={linkedinIcon}/> </a>
                     </div>
 
                 </div>

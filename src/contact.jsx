@@ -1,4 +1,8 @@
 import "./contact.css"
+import emailIcon from './assets/email.svg'
+import githubIcon from './assets/github.png'
+import linkedinIcon from './assets/linkedin.png'
+import youtubeIcon from './assets/youtube.svg'
 
 function Contact () {
 
@@ -9,24 +13,24 @@ function Contact () {
             <div className="contact-icon-container">
                 <a href="mailto:andahdgodfrey4@gmail.com">
                     <img className="contact-icon"
-                         src="./src/assets/email.svg"
+                         src={emailIcon}
                          alt="email" />
                 </a>
                 <a href="https://github.com/MrAndah"
                    target="_blank" >
                     <img className="contact-icon"
-                         src="./src/assets/github.png"
+                         src={githubIcon}
                          alt="github icon" />
                 </a>
                 <a href="https://www.linkedin.com/in/godfrey-andah/" target={"_blank"}>
                     <img className="contact-icon"
-                         src="./src/assets/linkedin.png"
+                         src={linkedinIcon}
                          alt="linkedin icon" />
                 </a>
                 <a href="https://www.youtube.com/@GodfreyAndah"
                    target="_blank">
                     <img className="contact-icon"
-                         src="./src/assets/youtube.svg"
+                         src={youtubeIcon}
                          alt="youtube icon" />
                 </a>
             </div>

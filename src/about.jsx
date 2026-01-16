@@ -1,5 +1,13 @@
 import "./about.css"
 import FadeIn from "./FadeIn.jsx";
+import htmlLogo from "./assets/html.svg"
+import cssLogo from "./assets/css.svg"
+import jsLogo from "./assets/javascript.svg"
+import reactLogo from "./assets/react.svg"
+import sqlLogo from "./assets/sql.svg"
+import javaLogo from "./assets/java.svg"
+import gitLogo from "./assets/git.svg"
+import dockerLogo from "./assets/docker.svg"
 
 function Skills() {
     return(
@@ -12,19 +20,19 @@ function Skills() {
                         <div className={'title'}> Frontend Development</div>
                         <ul className="skills-list">
                             <li>
-                                <img src="/src/assets/html.svg" className={"logo"}/>
+                                <img src={htmlLogo} className={"logo"}/>
                                 HTML
                             </li>
                             <li>
-                                <img src="/src/assets/css.svg" className={"logo"}/>
+                                <img src={cssLogo} className={"logo"}/>
                                 CSS
                             </li>
                             <li>
-                                <img src="/src/assets/javascript.svg" className={"logo"}/>
+                                <img src={jsLogo} className={"logo"}/>
                                 Javascript
                             </li>
                             <li>
-                                <img src="/src/assets/react.svg" className={"logo react"}/>
+                                <img src={reactLogo} className={"logo react"}/>
                                 REACT
                             </li>
                         </ul>
@@ -33,11 +41,11 @@ function Skills() {
                         <div className={'title'}> Backend Development</div>
                         <ul className="skills-list">
                             <li>
-                                <img src="/src/assets/sql.svg" className={"logo"}/>
+                                <img src={sqlLogo} className={"logo"}/>
                                 SQL
                             </li>
                             <li>
-                                <img src="/src/assets/java.svg" className={"logo"}/>
+                                <img src={javaLogo} className={"logo"}/>
                                 Java (SpringBoot)
                             </li>
                         </ul>
@@ -46,11 +54,11 @@ function Skills() {
                         <div className={'title'}> Tools</div>
                         <ul className="skills-list">
                             <li>
-                                <img src="/src/assets/git.svg" className={"logo"}/>
+                                <img src={gitLogo} className={"logo"}/>
                                 Git & Github
                             </li>
                             <li>
-                                <img src="/src/assets/docker.svg" className={"logo"}/>
+                                <img src={dockerLogo} className={"logo"}/>
                                 Docker
                             </li>
                         </ul>
