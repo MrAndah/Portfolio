@@ -67,7 +67,7 @@ function Port() {
                     <h1 className='name'> Godfrey Andah</h1>
                     <p className='pp'> I am a student of KNUST currently studying computer science.
                         I am a tech enthusiast with goals of venturing into Full Stack Development
-                        but currently focused on Full Stack Web Development.
+                        but currently focused on Web Development.
                     </p>
                     <div className='profile-img'>
                         <a href=' https://github.com/MrAndah' target='_blank'> <img className="github" src={githubIcon}/> </a>
